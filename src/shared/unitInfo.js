@@ -2250,7 +2250,7 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ragsherum - Missing Lore, Evolution, TW Image
+    { //Ragsherum - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
         id: 101086511,
         name: "Ragsherum",
         attribute: "Dark",
@@ -2275,27 +2275,26 @@ const UnitInformation = [
             },
         stats: 
             {
-                hp: 6743,
-                hpplus: 999,
-                atk: 2739,
-                atkplus: 420,
-                def: 2420,
-                defplus: 373
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
             },
         skillset: 
             {
-                skill: "9s CT - 3000% Dark DMG (PHY). Increase own Arts by 9.",
-                skillbreak: 1200,
-                arts: "18500% Dark DMG (PHY). Consumes 20% of own HP. Chance to inflict Faint.",
-                artsbreak: 1900,
-                truearts: "30050% Dark DMG (PHY). High chance to inflict Faint. Consumes 30% of own HP + For 25s, gain a DMG barrier that negates 3000 DMG to self.",
-                trueartsbreak: 4000
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
             },
         passive: 
             {
-                ability1: "Increase Dark RES by 10%. Increase own ATK and DEF based on how low HP is (up to 100%).",
-                ability2: "When near-death, heal own HP by 4% of DMG dealt.",
-                ability3: "Increase Status RES by 60%."
+                ability1: "",
+                ability2: ""
             }, 
         evolution: 
             {
@@ -2339,15 +2338,15 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: "Geshpenst",
+                name: "",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "50s CT - 7200% Dark DMG (PHY).",
-                skillbreak: 1600,
+                skill: "",
+                skillbreak: ,
                 passive: 
                     {
-                        ability1: "When equipped by Ragsherum, increase DMG by 20% and Skill CT REC by 50%. Does not stack with Abilities of the same name.",
-                        ability2: "Increase Allies' ATK by 15%. Does not stack with Abilities of the same name."
+                        ability1: 
+                        ability2: 
                     }
             },
         lore: 
@@ -2358,11 +2357,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Grad - Missing Lore, Evolution, TW Image
+    { //Grad - Missing Stast, Lore, Slots, Evolution, True Weapon, TW Image
         id: 101096511,
         name: "Grad",
-        attribute: "Dark",
-        type: "Demon",
+        attribute: ,
+        type: ,
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101094511.png",
@@ -2375,38 +2374,34 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/magLB.png"
+                slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
-                hp: 7999,
-                hpplus: 999,
-                atk: 2369,
-                atkplus: 369,
-                def: 2636,
-                defplus: 405
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
             },
         skillset: 
             {
-                skill: "9s CT - 2666% Dark DMG (PHY).",
-                skillbreak: 666,
-                arts: "16666% Dark DMG (PHY). For 5s, increase Allies' Critical Rate by 100%, Fire, Water and Earth RES by 50%.",
-                artsbreak: 1666,
-                truearts: "44444% Dark DMG (PHY). Consume 50% of own HP + For 30s, reduce own DMG RES by 40%, increase own DMG by 50%, increase own Crit Rate by 100% and heal own HP for 1% of DMG dealt.",
-                trueartsbreak: 2666,
-                //tentative??? reym help do i just write crossarts for the ca 
-                crossarts: "66666% Dark DMG (PHY). For 99s, increase Grad and Nier's DMG by 66%, Critical DMG by 99%.",
-                crossartsbreak: 2666
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
             },
         passive: 
             {
-                ability1: "Increase Blind RES by 50%.",
-                ability2: "Increase Demon Allies' DMG against God Enemies by 20%. Does not stack with Abilities of the same name.",
-                ability3: "When at MAX HP, increase ATK by 100%."
+                ability1: "",
+                ability2: ""
             }, 
         evolution: 
             {
@@ -2450,15 +2445,15 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: "Berserk",
+                name: "",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "70s CT - 6666% Dark DMG (PHY). For 10s, decrease Enemies' Dark RES and PHY RES by 20%.",
-                skillbreak: 1666,
+                skill: "",
+                skillbreak: ,
                 passive: 
                     {
-                        ability1: "When equipped by Grad, after using True Arts, increase DMG by 50% for 30s. Does not stack with Abilities of the same name.",
-                        ability2: "Increase Critical DMG by 20%."
+                        ability1: 
+                        ability2: 
                     }
             },
         lore: 
@@ -2469,11 +2464,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Nier - Missing Lore, Evolution, TW Image
+    { //Nier - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
         id: 101106511,
         name: "Nier",
-        attribute: "Dark",
-        type: "Demon",
+        attribute: ,
+        type: ,
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101104511.png",
@@ -2486,37 +2481,34 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/magLB.png",
+                slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/healLB.png"
+                slot3type: "/db/Mines/thumbnail/defLB.png"
             },
         stats: 
             {
-                hp: 7666,
-                hpplus: 937,
-                atk: 2666,
-                atkplus: 388,
-                def: 2499,
-                defplus: 348
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
             },
         skillset: 
             {
-                skill: "8s CT - 1600% Dark DMG (PHY). High chance to inflict Disease.",
-                skillbreak: 900,
-                arts: "9999% Dark DMG (MAG). If attack hits, recover Allies' HP by 2000 (only once per Arts activation) + For 7s, increase Dark Allies' DMG by 44%.",
-                artsbreak: 1666,
-                truearts: "36666% Dark DMG (MAG). During this True Arts, ignore 50% of Enemies' DEF. For 20s, reduce Enemies' Disease RES by 50%.",
-                trueartsbreak: 1666,
-                crossarts: "66666% Dark DMG (PHY). For 99s, increase Grad and Nier's DMG by 66%, Critical DMG by 99%.",
-                crossartsbreak: 2666
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
             },
         passive: 
             {
-                ability1: "Increase Demon Allies' Light RES by 15%. Does not stack with Abilities of the same name.",
-                ability2: "Allies ignore 50% of Diseased and/or Poisoned Enemies' DEF. Does not stack with Abilities of the same name.",
-                ability3: "Increase lifesteal RES by 30%."
+                ability1: "",
+                ability2: ""
             }, 
         evolution: 
             {
@@ -2560,15 +2552,15 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: "Basilisk",
+                name: "",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "70s CT - 6666% Dark DMG (PHY). For 10s, increase own Dark DMG by 44%.",
-                skillbreak: 1666,
+                skill: "",
+                skillbreak: ,
                 passive: 
                     {
-                        ability1: "When equipped by Nier, increase Healing Taken and accuracy by 30%. Does not stack with Abilities of the same name.",
-                        ability2: "Increase DMG to Poisoned/Diseased Enemies by 15%."
+                        ability1: 
+                        ability2: 
                     }
             },
         lore: 
@@ -2579,11 +2571,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Ganan - Missing Lore, Evolution, TW Image
+    { //Ganan - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
         id: 101116111,
         name: "Ganan",
-        attribute: "Fire",
-        type: "Human",
+        attribute: ,
+        type: ,
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101114111.png",
@@ -2596,7 +2588,7 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/physLB.png",
+                slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
@@ -2604,27 +2596,26 @@ const UnitInformation = [
             },
         stats: 
             {
-                hp: 7100,
-                hpplus: 999,
-                atk: 2448,
-                atkplus: 377,
-                def: 2050,
-                defplus: 317
+                hp: ,
+                hpplus: ,
+                atk: ,
+                atkplus: ,
+                def: ,
+                defplus: 
             },
         skillset: 
             {
-                skill: "9s CT - 2000% Fire DMG (PHY). Increase own Arts by 5.",
-                skillbreak: 2200,
-                arts: "15000% Fire DMG (PHY). For 15s, increase own ATK by 200%, increase Freeze and Paralysis RES by 100%. During Berserk Mode: 15000% Fire DMG (PHY). Consume 40% of own HP, increase this Arts' DMG by 200% + For 15s, increase own ATK by 200%, increase Freeze and Paralysis RES by 100%.",
-                artsbreak: 3100,
-                truearts: "40000% Fire DMG (PHY). Enter Berserk Mode for 55s + For 10s, reduce enemies PHY RES and Evasion by 30%.",
-                trueartsbreak: 5000
+                skill: "",
+                skillbreak: ,
+                arts: "",
+                artsbreak: ,
+                truearts: "",
+                trueartsbreak: 
             },
         passive: 
             {
-                ability1: "During Berserk Mode, increase Arts by 1 per hit taken, reduce DMG RES by 35% and increase Critical Rate by 100%. When reduced to 1 HP, Exit Berserk Mode.",
-                ability2: "Increase Break PWR by 10%.",
-                ability3: "Increase DMG to Enemies in BREAK by 20%."
+                ability1: "",
+                ability2: ""
             }, 
         evolution: 
             {
@@ -2668,15 +2659,15 @@ const UnitInformation = [
             },
         trueweapon: 
             {
-                name: "Shurahalt",
+                name: "",
                 slot: "/db/Mines/thumbnail/physLB.png",
                 detail: "",
-                skill: "50s CT - 8000% Fire DMG (PHY). If user is Fire, for 6s, increase own DMG by 50% and Break PWR by 100%.",
-                skillbreak: 2100,
+                skill: "",
+                skillbreak: ,
                 passive: 
                     {
-                        ability1: "When equipped by Ganan, increase DMG by 80% during Berserk Mode.",
-                        ability2: "Increase Allies' Break PWR by 15%."
+                        ability1: 
+                        ability2: 
                     }
             },
         lore: 
@@ -2690,8 +2681,8 @@ const UnitInformation = [
     { //Gilliam - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
         id: 101126311,
         name: "Gilliam",
-        attribute: "Earth",
-        type: "Human",
+        attribute: ,
+        type: ,
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101124311.png",
@@ -3517,11 +3508,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Duran - Missing Stats, Lore, Slots, Evolution
+    { //Duran - Complete
         id: 101206412,
         name: "Duran",
-        attribute: ,
-        type: ,
+        attribute: "Light",
+        type: "Human",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101204412.png",
@@ -3534,55 +3525,43 @@ const UnitInformation = [
         slots: 
             {
                 slot1: 5,
-                slot1type: "/db/Mines/thumbnail/magLB.png",
+                slot1type: "/db/Mines/thumbnail/defLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/defLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/physLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6792,
+                hpplus: 999,
+                atk: 2382,
+                atkplus: 337,
+                def: 2792,
+                defplus: 428
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 3300% Light DMG (PHY). During this Skill, increase own DMG RES by 30%.",
+                skillbreak: 2400,
+                arts: "For 10s, Enemies take [??? × DMG they inflict on this unit] Light DMG (PHY). For 15s, heal Allies' HP by 300/s & Allies gain a DMG barrier that negates 1200 DMG.",
+                artsbreak: 0,
+                truearts: "For 10s, take all DMG dealt to Allies instead. Enemies take [??? × DMG they inflict on this unit] Light DMG (PHY), and gain a DMG barrier that negates 9000 DMG to self. During True Arts, increase Paralysis and Freeze RES by 100%.",
+                trueartsbreak: 0
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "When an Ally dies (except self), revive that Ally with 50% HP. Ability can only be activated once per Quest.",
+                ability2: "Increase PHY RES by 20%."
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
                     mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
                     mat1amt: 2,
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_water4.png",
+                    mat1amt: 1,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
                     mat2amt: 5
                 },
@@ -3592,43 +3571,23 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat3amt: 2,
+                    hover3: "Code-XTF",
                 }
-            },
-        trueweapon: 
-            {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
-                detail: "",
-                skill: "",
-                skillbreak: ,
-                passive: 
-                    {
-                        ability1: 
-                        ability2: 
-                    }
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A Human soldier who fought prior to the Great War, Duran was known as a true dependable knight. His hometown suffered a great fire, Though countless innocents fled for their lives in front of him, he could do nothing against the roaring flames. At that moment, a girl suddenly appeared in front of him, summoning a great blizzard to extinguish the fire. From that day forward, Duran abandoned his post as a knight to embark on a journey.",
+                evo5: "Once a knight, Duran left his post to embark on a journey. As he traveled the world, Duran fought for the powerless in every land, eventually leading to him being renowned as a wandering hero. Needless to say, Duran himself never claimed to be any such thing. One day, he heard rumors of a dread swordsman running rampant across the land. Without delay he began heading to the area where this murderous monster was rumored to be...",
+                evoawk: "Duran encountered the crazed swordsman who was terrorizing the northern towns. From how the warrior wielded his sword with abandon, he knew the weapon had possessed him. After a heated confrontation, the knight suffered near-fatal injuries but not a single innocent was harmed. Ever since, the legend of Duran and his shield spread across the land."
             }
     },
-    { //Zenon - Missing Stats, Lore, Slots, Evolution, True Weapon, TW Image
+    { //Zenon - Missing TW Image
         id: 101216512,
         name: "Zenon",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Demon",
         image: 
             {
                 detail4: "/db/Units/Detail/unit_detail_101214512.png",
@@ -3645,53 +3604,41 @@ const UnitInformation = [
                 slot2: 5,
                 slot2type: "/db/Mines/thumbnail/physLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/suppLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6169,
+                hpplus: 935,
+                atk: 2848,
+                atkplus: 437,
+                def: 2495,
+                defplus: 384
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 1550% Dark DMG (MAG). During this Skill, increase own BE generation by 50%.",
+                skillbreak: 1350,
+                arts: "8800% Dark DMG (MAG). Heal own HP by 3% of DMG dealt by this Arts and for 10s, increase Allies' Arts by 3/s.",
+                artsbreak: 2100,
+                truearts: "25500% Dark DMG (MAG). Consume 25% of own HP, increase Allies' Arts by 40 and for 10s, increase Allies' MAG DMG by 30%.",
+                trueartsbreak: 4400 
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Increase DMG to Human Enemies by 80%.",
+                ability2: "Ignore 50% of Enemies' DEF."
             }, 
         evolution: 
             {
-                evo23: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light1.png",
-                    mat2amt: 5
-                },
-                evo34: 
-                {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light2.png",
-                    mat2amt: 5
-                },
                 evo45:
                 {
-                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_light4.png",
+                    mat1: "/db/Icons/dungeon_drops/material_thumbnail_dark4.png",
                     mat1amt: 2,
-                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_light3.png",
-                    mat2amt: 5
+                    mat2: "/db/Icons/dungeon_drops/material_thumbnail_fire4.png",
+                    mat2amt: 1,
+                    mat3: "/db/Icons/dungeon_drops/material_thumbnail_dark3.png",
+                    mat3amt: 5
                 },
                 evo5awk:
                 {
@@ -3699,36 +3646,35 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
-                    mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherum.png",
+                    mat3amt: 1,
+                    hover3: "Ragsherum",
+                    mat4: "/db/Icons/dungeon_drops/fragOldeus.png",
+                    mat4amt: 2,
+                    hover4: "Oldeus",
+                    mat5: "/db/Icons/dungeon_drops/fragCodeXTF.png",
+                    mat5amt: 2,
+                    hover5: "Code-XTF"
                 }
             },
         trueweapon: 
             {
-                name: "",
-                slot: "/db/Mines/thumbnail/physLB.png",
+                name: "Fe'Ode",
+                slot: "/db/Mines/thumbnail/magLB.png",
                 detail: "",
-                skill: "",
-                skillbreak: ,
+                skill: "50s CT - 6800% Dark DMG (MAG). For 10s, increase own Arts by 2/s.",
+                skillbreak: 1200,
                 passive: 
                     {
-                        ability1: 
-                        ability2: 
+                        ability1: "When equipped by Zenon, increase DMG to Human Enemies by 100%. Does not stack with Abilities of the same name."
+                        ability2: "Increase BE generation by 20%."
                     }
             },
         lore: 
             {   
-                evo3: "Missing Lore Information, please contact site owner",
-                evo4: "Missing Lore Information, please contact site owner",
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo4: "A Spellblade who served as a bodyguard to Auge, one of the six Demon Generals. Zenon was dedicated to Auge in heart and soul, and would perform any job requested of him, no matter how low, until the day he was imprisoned for a crime he didn't commit. This was all a plot by a Demon commander who was anxious about Zenon's growing power. Furious at this betrayal, he howled revenge, and his magic sword Fah Ode came to him as if in answer.",
+                evo5: "A Demonic spellblade betrayed by his own people, Zenon used his sword Fah Ode to dismiss the officer who conspired against him... permanently. As the life drained from his body, the officer revealed Auge was partially responsible for carrying out the betrayal. As hatred welled up in within him, his sword unleashed even greater power, reducing his surroundings to a mountain of corpses and debris. And he had no idea this was all part of Auge's plan...",
+                evoawk: "Zenon loathed the whole world, so he took up his cursed sword and made blood rain througout the land. And then a single knight rose to stop him. The battle that suddenly erupted in the city streets was so fierce it changed the very shape of the land. During the battle, Zenon finally understood the reason his cursed sword came to his hand. And that understanding released the true power of the blade. The attack then unleashed, fueled by the hatred and bloodlust of the blade's will, destroyed everything in the area--including his own life."
             }
     }
 ];
